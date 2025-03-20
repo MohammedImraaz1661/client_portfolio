@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Mona Sans", sans-serif;
+    font-family: Helvetica, sans-serif;
     /* color: black; */
     /* background-color: black; */
 }
@@ -21,7 +21,7 @@ html,body{
 #main{
     height: auto;
     width: auto;
-    padding: 10px 25px;
+    padding: .6em 1.5em;
     background-color: black;
     color: white;
 }
@@ -33,11 +33,11 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 1em;
+    padding: .6em 1em;
 }
 
 #nav h1{
-    font-size: 35px;
+    font-size: 2.2em;
     font-family: "Yatra One", system-ui;
     font-weight: 500;
     /* text-transform: uppercase; */
@@ -64,6 +64,10 @@ html,body{
     gap: 1em;
 }
 
+#rr a{
+    font-weight: 500;
+}
+
 ul{
     display: flex;
     align-items: center;
@@ -72,18 +76,18 @@ ul{
 }
 
 li{
-    font-weight: 100;
+    font-weight: 500;
     cursor: pointer;
     list-style-type: none;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.1em;
     /* color: black; */
     /* -webkit-text-fill-color: black; */
 }
 
 #nav i{
     cursor: pointer;
-    font-size: 23px;
+    font-size: 1.4em;
 }
 
 #centr{
@@ -93,41 +97,47 @@ li{
 
 #center{
     /* text-transform: uppercase; */
-    margin-top: 100px;
+    margin-top: .6em;
     font-size: 11.5em;
     font-weight: 400;
     word-spacing: 0;
-    line-height: 150px;
+    line-height: .8em;
     /* text-transform: uppercase; */
 }
 
 #center span{
-    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-stroke: .1rem #ffffff;
     color: transparent;
 }
 
 #cent2{
-    margin-top: 50px;
+    margin-top: 4em;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .connect{
-    padding: 25px 40px;
-    border-radius: 50px;
+    text-decoration: none;
+    padding: 1.5em 2.5em;
+    border-radius: 4em;
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
-    font-size: 19px;
+    font-size: 1.3em;
     font-weight: 500;
     cursor: pointer;
 }
 
+.connect:hover{
+    background-color: white;
+    color: black;
+}
+
 #cent2 p{
-    font-size: 19px;
+    font-size: 1.3em;
     text-transform: uppercase;
-    line-height: 25px;
+    line-height: 1.4em;
 }
 
 #cent3{
@@ -135,15 +145,15 @@ li{
 }
 
 #cent3 h2{
-    font-size: 80px;
-    line-height: 70px;
-    font-weight: 300;
+    font-size: 5em;
+    line-height: .9em;
+    font-weight: 500;
 }
 
 #box{
-    height: 25px;
-    width: 25px;
-    background-color: white;
+    height: 1.5em;
+    width: 1.5em;
+    /* background-color: white; */
 }
 
 #cent3p{
@@ -152,8 +162,8 @@ li{
 }
 
 #cent3 p{
-    margin-top: 50px;
-    font-size: 27px;
+    margin-top: 1.3em;
+    font-size: 1.7em;
     text-align: left;
 }
 
@@ -173,13 +183,15 @@ li{
 
 .marquee-content {
     display: flex;
-    gap: 50px; 
-    animation: marquee 14s linear infinite;
+    gap: 3.1em; 
+    padding-left: 4.8rem;
+    width: max-content;
+    animation: marquee 20s linear infinite;
 }
 
 .word {
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 1.8em;
+    font-weight: 200;
     cursor: none;
 }
 
@@ -208,13 +220,14 @@ li{
 
 .marquee-content2 {
     display: flex;
-    gap: 50px; 
-    animation: marquees 14s linear infinite;
+    padding-left: 4.8rem;
+    gap: 3.1em; 
+    animation: marquees 20s linear forwards infinite;
 }
 
 .word1 {
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 1.8em;
+    font-weight: 200;
     cursor: none;
 }
 
@@ -243,17 +256,17 @@ li{
     /* background-color: blue; */
     width: 100%;
     height: 25vh;
-    padding: 40px 20px;
+    padding: 2.5em 1.2em;
 
 }
 
 .p1 h2{
     font-size: 2.5em;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 .line{
-    margin-top: 50px;
+    margin-top: 4.5em;
     height: .1vh;
     width: 100%;
     background-color: gray;
@@ -267,11 +280,11 @@ li{
 
 #text h2{
     font-weight: 500;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 #text h4{
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 1.2em;
     cursor: pointer;
@@ -282,7 +295,8 @@ li{
 }
 
 #w{
-    font-size: 3.5em;
+    font-size: 2.5em;
+    font-weight: 400;
 }
 
 #text2{
@@ -293,13 +307,14 @@ li{
 
 #text2 h5{
     margin-top: 22px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1em;
 }
 
-#text2 span{
+#text2 a{
+    color: white;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1em;
     text-decoration: underline;
 }
@@ -318,12 +333,14 @@ li{
 #main2 h1{
     /* margin-top: 25px; */
     font-size: 8em;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 }
 
 #desc{
+    font-size: 1.5em;
     margin-top: 40px;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -333,11 +350,15 @@ li{
     /* flex-direction: row; */
     align-items: center;
     justify-content: center;
-    padding: 30px 20em;
+    /* padding: 30px; */
+    width: 75%;
+    height: 4em;
+    border-radius: 3em;
     margin-top: 50px;
     color: black;
     font-size: 1.5em;
     border: 2px solid black;
+    text-decoration: none;
 }
 
 #n1 i{
@@ -353,11 +374,14 @@ li{
 #stud{
     margin-top: 40px;
     font-size: 1em;
+    font-weight: 500;
     text-align: center;
 }
 
 #stud span{
     text-decoration: underline;
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 800;
 }
 
 #link{
@@ -393,7 +417,7 @@ li{
     height: 100%;
     width: 40%;
     /* background-color: green; */
-    padding: 0 30px;
+    padding: 0 1.8em;
 }
 
 .in{
@@ -449,8 +473,8 @@ li{
 
 }
 .vt .lp h2{
-   font-size:2.5vw ;
-   font-weight: 100;
+   font-size:2.8vw ;
+   font-weight: 400;
    padding: 8vw 1vw;
 
 }
@@ -463,7 +487,7 @@ li{
 }
 .vt .rp h1{
     font-size: 6vw;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 5vw;
 
 }
@@ -476,18 +500,17 @@ li{
 
 }
 .vb .changet h3{
-   font-size: 5.3vw;
-font-weight: 100;
-position: absolute;
-left: 40%;
-top: 10%;
-
+    font-size: 5.3vw;
+    font-weight: 100;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    transition: all ease 1s;
 }
 .vb .list h4{
     font-size: 2vw;
-    font-weight: 100;
-   
-
+    font-weight: 400;
+    cursor: pointer;
 }
 .vb .list{
     /* background-color: rgb(25, 186, 195); */
@@ -509,13 +532,20 @@ top: 10%;
 
 }
 .vb .para p{
-   
-font-size: 1.3vw;
-font-weight: 100;
+    line-height: 1.8vw;    
+    font-size: 1.3vw;
+    font-weight: 400;
 
 }
 .idu{
-    opacity: 0.7;
-    color: #dadada;
+    opacity: 0.7; 
+    color: darkgray;
+    /* transition: ease .1s; */
+    cursor: pointer;
+}
 
+.idu:hover{
+    opacity: 1;
+    color: white;
+    /* transition: ease .5s; */
 }
