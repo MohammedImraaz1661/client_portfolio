@@ -51,13 +51,14 @@ function change(){
             n1.style.color = "black"
             n1.style.border = "2px solid black"
             n1.addEventListener("mouseleave", function(){
-                n1.style.backgroundColor = "black"
-                n1.style.color = "white"
+                n1.style.backgroundColor = "white"
+                n1.style.color = "black"
             })
         })
         bs.style.color = "white"
         a.style.color = "black"
         b.style.color = "black"
+        n1.style.border = "2px solid black"
         link.style.backgroundColor = "white"
         bl.style.backgroundColor = "black"
         br.style.backgroundColor = "black"

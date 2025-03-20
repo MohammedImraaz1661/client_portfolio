@@ -423,3 +423,99 @@ li{
     font-size: 40px;
     cursor: pointer;
 }
+.vary{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+    
+}
+.vt{
+    /* background-color: royalblue; */
+    height: 40%;
+    width: 100%;
+  
+    display: flex;
+}
+.vb{
+    /* background-color: lightseagreen; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.vt .lp{
+    /* background-color: green; */
+    width: 20%;
+    height: 100%;   
+
+}
+.vt .lp h2{
+   font-size:2.5vw ;
+   font-weight: 100;
+   padding: 8vw 1vw;
+
+}
+.vt .rp{
+    /* background-color: rgb(117, 128, 0); */
+    width: 80%;
+    height: 100%;
+    padding: 8vw 1vw 8vw 2vw ;
+
+}
+.vt .rp h1{
+    font-size: 6vw;
+    font-weight: 200;
+    line-height: 5vw;
+
+}
+.vb .changet{
+    /* background-color: red; */
+    height: 100%;
+    width: 20%;
+    position: relative;
+
+
+}
+.vb .changet h3{
+   font-size: 5.3vw;
+font-weight: 100;
+position: absolute;
+left: 40%;
+top: 10%;
+
+}
+.vb .list h4{
+    font-size: 2vw;
+    font-weight: 100;
+   
+
+}
+.vb .list{
+    /* background-color: rgb(25, 186, 195); */
+    height: 100%;
+    width: 20%;
+    line-height: 5.5vw;
+    padding: 4vw 1vw 5vw 2vw ;
+    
+
+
+}
+.vb .para{
+    /* background-color: rgb(170, 255, 0); */
+    height: 100%;
+    width: 60%;
+    padding: 5.7vw 1vw 5vw 3vw ;
+    
+
+
+}
+.vb .para p{
+   
+font-size: 1.3vw;
+font-weight: 100;
+
+}
+.idu{
+    opacity: 0.7;
+    color: #dadada;
+
+}
