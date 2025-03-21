@@ -17,6 +17,7 @@ var l2 = document.querySelector("#l2")
 var l3 = document.querySelector("#l3")
 var l4 = document.querySelector("#l4")
 var habibi = document.querySelector("#habibi")
+var to = document.querySelector("#to")
 var t = 0
 
 function change(){
@@ -31,6 +32,7 @@ function change(){
                 btn.style.border = "2px solid black"
             })
         })
+        to.style.color = "black"
         bs.style.color = "black"
         a.style.color = "white"
         b.style.color = "white"
@@ -82,6 +84,7 @@ function change(){
                 btn.style.border = "2px solid white"
             })
         })
+        to.style.color = "white"
         bs.style.color = "white"
         a.style.color = "black"
         b.style.color = "black"
@@ -140,3 +143,74 @@ function dd(){
     habibi.style.top = "65%" 
     habibi.innerHTML = "04/"
 }
+
+// function anime(){
+//     var p = gsap.timeline()
+//     p.from("#nav", {
+//         opacity: 0,
+//         y: -150,
+//         duration: 1.5
+//     })
+//     p.from("#center", {
+//         y: 150,
+//         opacity: 0,
+//         duration: 1.5    
+//     })
+//     p.from("#cent2", {
+//         y: 150,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#cent3 h2", {
+//         x: -1000,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#cent3p", {
+//         x: 1000,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#part", {
+//         x: -500,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from(".vary", {
+//         y: 500,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#main2 h1", {
+//         y: 300,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#desc", {
+//         y: 300,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#n1", {
+//         y: 300,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#stud", {
+//         y: 300,
+//         opacity: 0,
+//         duration: 1.5
+//     })
+//     p.from("#lt", {
+//         scale: 0.3,
+//         opacity: 0,
+//         duration: .9
+//     },"saath")
+//     p.from("#rt", {
+//         scale: 0.3,
+//         opacity: 0,
+//         duration: .9
+//     },"saath")
+// }
+
+// anime()
