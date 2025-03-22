@@ -514,6 +514,12 @@ li{
     font-weight: 400;
     cursor: pointer;
 }
+
+#l1{
+    color: white;
+    opacity: 1;
+}
+
 .vb .list{
     /* background-color: rgb(25, 186, 195); */
     height: 100%;
@@ -544,10 +550,4 @@ li{
     color: darkgray;
     /* transition: ease .1s; */
     cursor: pointer;
-}
-
-.idu:hover{
-    opacity: 1;
-    color: white;
-    /* transition: ease .5s; */
 }
