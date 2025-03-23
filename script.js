@@ -28,6 +28,10 @@ var ph1=document.querySelector("#ph1")
 var ph2=document.querySelector("#ph2")
 var ph3=document.querySelector("#ph3")
 var ph4=document.querySelector("#ph4")
+var marq1=document.querySelector(".marquee-content")
+var marq2=document.querySelector(".marquee-content2")
+let stag = document.getElementById('#stag');
+
 
 var t = 0
 var v = 1
@@ -204,6 +208,9 @@ function dd1(){
 function change(){
 
     if(t == 0){
+        stag.innerHTML+=`#contmarq:after{
+   display:none;
+}`
    
         if(smq.matches){
             cent.style.webkitTextStroke = "transparent"
@@ -265,6 +272,7 @@ function change(){
             l1.style.color = "black"
             l1.style.opacity="1"
             }
+            span.style.color="black"
 
         cmm.style.backgroundColor="black"
         Var.style.color = "white"
@@ -300,6 +308,9 @@ function change(){
         })
     }
     else{
+        stag.innerHTML+=`#contmarq:after{
+            display:block;
+         }`
           cmm.style.backgroundColor="white"
        
         if(smq.matches){
@@ -369,7 +380,7 @@ function change(){
             l1.style="opacity:1;color:white"
          }
        
-       
+       span.style.color="white"
         Var.style.color = "black"
         to.style.color = "white"
         bs.style.color = "white"
@@ -397,6 +408,38 @@ function change(){
 
 function anime(){
     var p = gsap.timeline()
+    marq1.innerHTML += marq1.innerHTML;
+marq2.innerHTML += marq2.innerHTML;
+
+var a=gsap.to(marq1, {
+   x:0, 
+    duration: 70,                
+    ease: "linear",             
+    repeat: -1                 
+  });
+  
+ 
+ var b= gsap.to(marq2, {
+    x: -marq2.offsetWidth / 2, 
+    duration: 50,                 
+    ease: "linear",             
+    repeat: -1                  
+  });
+  
+    
+    marq1.addEventListener("mouseover",function(){
+        a.pause()
+    })
+    marq1.addEventListener("mouseleave",function(){
+        a.play()
+    })
+    marq2.addEventListener("mouseover",function(){
+        b.pause()
+    })
+    marq2.addEventListener("mouseleave",function(){
+        b.play()
+    })
+    
     if(d==1){
         
     p.from("#nav", {

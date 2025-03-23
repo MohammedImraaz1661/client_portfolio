@@ -175,23 +175,51 @@ li{
 #cent3p span{
     text-decoration: underline;
 }
+#contmarq{
+    padding-top: 1%;
+    padding-bottom: 4%;
+  
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
 
+#contmarq::after{
+    position: absolute;
+    content: "";
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: inset 4vh  0 5vh black,inset -4vh 0 5vh black;
+}
 .marquee-container {
     margin-top: 8%;
-    width: 100%;
+   
+  
+    width: 99%;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
     display: flex;
     align-items: center;
+    position: relative;
 }
+
 
 .marquee-content {
     display: flex;
     gap: 3.1em; 
-    padding-left: 4.8rem;
-    width: max-content;
-    animation: marquee 20s linear infinite;
+    padding-left: 4.8rem; 
+    width: max-content; 
+ transform: translateX(-91%);
+   
+   
 }
 
 .word {
@@ -200,22 +228,13 @@ li{
     cursor: none;
 }
 
-@keyframes marquee {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
 
-.marquee-container:hover .marquee-content {
-    animation-play-state: paused;
-}
+
+
 
 .marquee-container2 {
     margin-top: 2%;
-    width: 100%;
+    width: 99%;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
@@ -227,7 +246,8 @@ li{
     display: flex;
     padding-left: 4.8rem;
     gap: 3.1em; 
-    animation: marquees 20s linear forwards infinite;
+    
+   
 }
 
 .word1 {
@@ -236,18 +256,9 @@ li{
     cursor: none;
 }
 
-@keyframes marquees {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(100%);
-    }
-}
 
-.marquee-container2:hover .marquee-content2 {
-    animation-play-state: paused;
-}
+
+
 
 #part{
     margin-top: 100px;
@@ -398,7 +409,7 @@ li{
 }
 
 #link{
-    padding: 20px 20px;
+    padding: 10px 10px;
     margin-top: 25px;
     width: 100%;
     height: 30vh;
@@ -406,7 +417,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 10px; */
+    /* gap: 20vh; */
 }
 
 #bl{
@@ -423,6 +434,7 @@ li{
     padding: 0 30px;
     height: 100%;
     width: 40%;
+  
     /* background-color: blue; */
 }
 
@@ -566,6 +578,9 @@ li{
     display: none;
 }
 @media (max-width:600px) {
+    #contmarq{
+        padding: 6vh 0;
+    }
     #nav{
         padding: 20px 8px;
     }
