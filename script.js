@@ -210,8 +210,9 @@ function change(){
         cent.style.color = "black"
         }
         else {
- cent.style.webkitTextStroke = ".1rem black"
-        cent.style.color = "transparent"
+        span.style.webkitTextStroke = ".1rem #000000"
+        span.style.color="transparent"
+        cent.style.color = "black"
         }
         idu.style="opacity:0.7;color:darkgray;"
         if (v == 1) {
@@ -281,7 +282,7 @@ function change(){
         btn.style.border = "2px solid black"
         btn.style.color = "black"
         btn.style.backgroundColor = "white"
-        span.style.color = "black"
+        
        
         h1.style.fontWeight = 700;
         body.style.backgroundColor = "white"
@@ -306,8 +307,9 @@ function change(){
         cent.style.color = "white"
         }
         else {
-       cent.style.webkitTextStroke = ".1rem black"
-        cent.style.color = "transparent"
+       span.style.webkitTextStroke = ".1rem #ffffff"
+          span.style.color="transparent"
+        cent.style.color = "white"
         }
          idu.style="opacity:0.7;color:darkgray;"
         l1.addEventListener("click",function(){
@@ -362,8 +364,10 @@ function change(){
                 btn.style.border = "2px solid white"
             })
         })
-          span.style.color = "white"
-      
+        
+         
+       
+        console.log('changet')
         Var.style.color = "black"
         to.style.color = "white"
         bs.style.color = "white"
@@ -391,6 +395,78 @@ function change(){
 
 function anime(){
     var p = gsap.timeline()
+    if(d==1){
+        
+    p.from("#nav", {
+        opacity: 0,
+        y: -150,
+        duration: 0.8
+       
+    })
+    p.from("#center", {
+        y: 150,
+        opacity: 0,
+        duration: 0.8  
+    })
+    p.from("#cent2", {
+        y: 150,
+        opacity: 0,
+        duration: 0.8
+    })
+    p.from("#cent3 h2", {
+        x: -1000,
+        opacity: 0,
+        duration: 1
+    })
+    p.from("#cent3p", {
+        x: 1000,
+        opacity: 0,
+        duration: 1
+    })
+    p.from("#part", {
+        x: -500,
+        opacity: 0,
+        duration: 1
+    })
+    p.from(".vary", {
+        y: 500,
+        opacity: 0,
+        duration: 1,
+        stagger:0.3
+    })
+    p.from("#main2 h1", {
+        y: 300,
+        opacity: 0,
+        duration: 1
+    })
+    p.from("#desc", {
+        y: 300,
+        opacity: 0,
+        duration: 1
+    })
+    p.from("#n1", {
+        y: 300,
+        opacity: 0,
+        duration: 1
+    }) 
+    p.from("#stud", {
+        y: 300,
+        opacity: 0,
+        duration: 1
+    })  
+    p.from("#lt", {
+        scale: 0.3,
+        opacity: 0,
+        duration: .9
+    },"saath")
+    p.from("#rt", {
+        scale: 0.3,
+        opacity: 0,
+        duration: .9
+    },"saath")  
+
+    }
+else{
    
     p.from("#nav", {
         opacity: 0,
@@ -415,7 +491,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#cent3 h2",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -429,7 +504,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#cent3p",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -447,7 +521,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#part",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -455,17 +528,16 @@ function anime(){
       
     })
     
-    gsap.from(".vary", {
+    gsap.from(".vary ", {
         y: 500,
         opacity: 0,
         duration: 1,
         stagger:0.3,
        scrollTrigger:{
         scroller:"body",
-        trigger:".vary",
-        markers:true,
-        start:"top 60%",
-        end:"top 40%"
+        trigger:".vary ",
+        start:"top 100%",
+        end:"top 0%"
        }
        
       
@@ -478,7 +550,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#main2",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -494,7 +565,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#main2 h1",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -510,7 +580,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#main2 h1",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -526,7 +595,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#main2 h1",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -542,7 +610,6 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#main2 h1",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
@@ -557,18 +624,18 @@ function anime(){
        scrollTrigger:{
         scroller:"body",
         trigger:"#main2 h1",
-        markers:true,
         start:"top 60%",
         end:"top 40%"
        }
        
       
     },"saath")
-    
-  
-    
  
 
+ 
+    
+ 
+  }
   
 }
 
