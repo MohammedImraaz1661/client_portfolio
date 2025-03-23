@@ -391,71 +391,185 @@ function change(){
 
 function anime(){
     var p = gsap.timeline()
+   
     p.from("#nav", {
         opacity: 0,
         y: -150,
-        duration: 1.5
+        duration: 0.8
+       
     })
     p.from("#center", {
         y: 150,
         opacity: 0,
-        duration: 1.5    
+        duration: 0.8  
     })
     p.from("#cent2", {
         y: 150,
         opacity: 0,
-        duration: 1.5
+        duration: 0.8
     })
-    p.from("#cent3 h2", {
+    gsap.from("#cent3 h2", {
         x: -1000,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#cent3 h2",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#cent3p", {
+    gsap.from("#cent3p", {
         x: 1000,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#cent3p",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#part", {
+   
+    p.from("#cent3p", {
+     
+    })
+    gsap.from("#part", {
         x: -500,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#part",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from(".vary", {
+    
+    gsap.from(".vary", {
         y: 500,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+        stagger:0.3,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".vary",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#main2 h1", {
+    
+    gsap.from("#main2 h1", {
         y: 300,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#main2",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#desc", {
+      
+    gsap.from("#desc", {
         y: 300,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+        delay:0.5,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#main2 h1",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#n1", {
+      
+    gsap.from("#n1", {
         y: 300,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+        delay:1,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#main2 h1",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#stud", {
+      
+    gsap.from("#stud", {
         y: 300,
         opacity: 0,
-        duration: 1.5
+        duration: 1,
+        delay:1.5,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#main2 h1",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     })
-    p.from("#lt", {
+      
+    gsap.from("#lt", {
         scale: 0.3,
         opacity: 0,
-        duration: .9
+        duration: .9,
+        delay:2,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#main2 h1",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     },"saath")
-    p.from("#rt", {
+    gsap.from("#rt", {
         scale: 0.3,
         opacity: 0,
-        duration: .9
+        duration: .9,
+        delay:2,
+       scrollTrigger:{
+        scroller:"body",
+        trigger:"#main2 h1",
+        markers:true,
+        start:"top 60%",
+        end:"top 40%"
+       }
+       
+      
     },"saath")
+    
+  
+    
+ 
+
+  
 }
 
-// anime()
+anime()
