@@ -54,11 +54,6 @@ else
     d=0
 }
 
-
-
-   
-
-
 function bb(){
     if(d==1){
         ph2.style.display="block"

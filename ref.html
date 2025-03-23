@@ -3,83 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marquee Left to Right</title>
+    <link rel="stylesheet" href="s.css">
+    <title>VAR</title>
     <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-
-        .marquee-container {
-            width: 100%;
-            overflow: hidden;
-            white-space: nowrap;
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-
-        .marquee-content {
-            display: flex;
-            gap: 50px; /* Adjust space between words */
-            animation: marquee 10s linear infinite;
-        }
-
-        .word {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        @keyframes marquee {
-            from {
-                transform: translateX(-100%);
-            }
-            to {
-                transform: translateX(100%);
-            }
-        }
-
-        /* Pause animation on hover */
-        .marquee-container:hover .marquee-content {
-            animation-play-state: paused;
-        }
-
-.latest-works {
-    width: 80%;
-    margin: 50px auto;
-}
-
-h2 {
-    font-size: 24px;
-    font-weight: normal;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid gray;
-    margin-top: 10px;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
     </style>
 </head>
 <body>
 
-    <div class="marquee-container">
-        <div class="marquee-content">
-            <span class="word">BRAND DESIGN</span>
-            <span class="word">GRAPHIC DESIGN</span>
-            <span class="word">FRONTEND DEVELOPMENT</span>
-            <span class="word">WEB DESIGN</span>
-            <span class="word">UI/UX</span>
-            <span class="word">INTERACTION DESIGN</span>
-            <span class="word">BRAND DESIGN</span> <!-- Repeating for seamless effect -->
+    
+    <div id="text">
+        <h1 id="head">Hey Guys, We are <span>Var.</span></h1>
+        <div id="cent">
+            <h5 id="center">We have not started yet, Just wait for our arrival</h5>
+            <a href="mailto:">Email to <span>$$$$</span> for any projects.</a>
         </div>
+        <h1 id="foot">Coming Very Soon👋</h1>
     </div>
 
-
-    <div class="latest-works">
-        <h2>My latest works.</h2>
-        <hr>
-    </div>
 </body>
 </html>
