@@ -365,9 +365,11 @@ function change(){
             })
         })
         
-         
+         if(v==1){
+            l1.style="opacity:1;color:white"
+         }
        
-        console.log('changet')
+       
         Var.style.color = "black"
         to.style.color = "white"
         bs.style.color = "white"
