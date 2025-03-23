@@ -22,14 +22,47 @@ var Var = document.querySelector("#variable")
 var idu = document.querySelector(".idu")
 var aid=document.querySelectorAll(".idu")
 var list = document.querySelector(".list")
+var cmm=document.querySelector("#main2 #cmm")
+var ph=document.querySelector(".ph")
+var ph1=document.querySelector("#ph1")
+var ph2=document.querySelector("#ph2")
+var ph3=document.querySelector("#ph3")
+var ph4=document.querySelector("#ph4")
+
 var t = 0
 var v = 1
+var d=0
+const smq = window.matchMedia("(max-width: 600px)");
+if(smq.matches){
+    cent.style="-webkit-text-stroke: transparent;"
+    d=1
+};
+  
+
+
+
+if(smq.matches){
+    cent.style="-webkit-text-stroke: transparent;"
+      d=1
+}
+else
+{
+    d=0
+}
+
 
 
    
 
 
 function bb(){
+    if(d==1){
+        ph2.style.display="block"
+        ph1.style.display="none"
+        ph4.style.display="none"
+        ph3.style.display="none"
+
+    }
     para.innerHTML = `<p>I'm here to bring your brand to life by telling its one-of-a-kind story! With my design skills, I'll create an unforgettable visual identity that will make you stand out from the crowd. And when it comes to crafting digital experiences, I make sure they're user-friendly, because people are the heart and soul of every project I work on.</p>`
     l1.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
@@ -42,6 +75,13 @@ function bb(){
 }
 
 function bb1(){
+    if(d==1){
+        ph2.style.display="block"
+        ph1.style.display="none"
+        ph4.style.display="none"
+        ph3.style.display="none"
+        
+    }
     para.innerHTML = `<p>I'm here to bring your brand to life by telling its one-of-a-kind story! With my design skills, I'll create an unforgettable visual identity that will make you stand out from the crowd. And when it comes to crafting digital experiences, I make sure they're user-friendly, because people are the heart and soul of every project I work on.</p>`
     l1.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
@@ -52,6 +92,13 @@ function bb1(){
     v=2
 }
 function aa(){
+    if(d==1){
+        ph1.style.display="block"
+        ph2.style.display="none"
+        ph3.style.display="none"
+        ph4.style.display="none"
+        
+    }
     l2.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
@@ -63,6 +110,14 @@ function aa(){
     
 }
 function aa1(){
+    
+    if(d==1){
+        ph1.style.display="block"
+        ph2.style.display="none"
+        ph3.style.display="none"
+        ph4.style.display="none"
+        
+    }
     v = 1  
     l2.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
@@ -74,6 +129,13 @@ function aa1(){
     
 }
 function cc(){
+    if(d==1){
+        ph3.style.display="block"
+        ph2.style.display="none"
+        ph1.style.display="none"
+        ph4.style.display="none"
+        
+    }
     v = 3
     para.innerHTML=`<p>Get ready to experience the power of cutting-edge technology! With my expertise, I'll build websites and products that not only function flawlessly but also remain dependable and adaptable over time. You can trust me to keep your digital world running smoothly while you focus on what matters most to you.</p>`
     l1.style = "opacity: 0.7; color: darkgray;"
@@ -85,6 +147,13 @@ function cc(){
     
 }
 function cc1(){
+    if(d==1){
+        ph3.style.display="block"
+        ph2.style.display="none"
+        ph1.style.display="none"
+        ph4.style.display="none"
+        
+    }
     v=3
     para.innerHTML=`<p>Get ready to experience the power of cutting-edge technology! With my expertise, I'll build websites and products that not only function flawlessly but also remain dependable and adaptable over time. You can trust me to keep your digital world running smoothly while you focus on what matters most to you.</p>`
     l1.style = "opacity: 0.7; color: darkgray;"
@@ -96,6 +165,13 @@ function cc1(){
     
 }
 function dd(){
+    if(d==1){
+        ph4.style.display="block"
+        ph2.style.display="none"
+        ph1.style.display="none"
+        ph3.style.display="none"
+        
+    }
     v=4
     l1.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
@@ -107,6 +183,13 @@ function dd(){
     
 }
 function dd1(){
+    if(d==1){
+        ph4.style.display="block"
+        ph2.style.display="none"
+        ph1.style.display="none"
+        ph3.style.display="none"
+        
+    }
     v=4
     l1.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
@@ -122,7 +205,14 @@ function change(){
 
     if(t == 0){
    
-        
+        if(smq.matches){
+            cent.style.webkitTextStroke = "transparent"
+        cent.style.color = "black"
+        }
+        else {
+ cent.style.webkitTextStroke = ".1rem black"
+        cent.style.color = "transparent"
+        }
         idu.style="opacity:0.7;color:darkgray;"
         if (v == 1) {
             l1.style.color = "black"
@@ -174,6 +264,8 @@ function change(){
             l1.style.color = "black"
             l1.style.opacity="1"
             }
+
+        cmm.style.backgroundColor="black"
         Var.style.color = "white"
         to.style.color = "black"
         bs.style.color = "black"
@@ -190,8 +282,7 @@ function change(){
         btn.style.color = "black"
         btn.style.backgroundColor = "white"
         span.style.color = "black"
-        cent.style.webkitTextStroke = ".1rem black"
-        cent.style.color = "transparent"
+       
         h1.style.fontWeight = 700;
         body.style.backgroundColor = "white"
         body.style.color = "black"
@@ -208,8 +299,16 @@ function change(){
         })
     }
     else{
+          cmm.style.backgroundColor="white"
        
-     
+        if(smq.matches){
+            cent.style.webkitTextStroke = "transparent"
+        cent.style.color = "white"
+        }
+        else {
+       cent.style.webkitTextStroke = ".1rem black"
+        cent.style.color = "transparent"
+        }
          idu.style="opacity:0.7;color:darkgray;"
         l1.addEventListener("click",function(){
         aa()
@@ -263,6 +362,7 @@ function change(){
                 btn.style.border = "2px solid white"
             })
         })
+          span.style.color = "white"
       
         Var.style.color = "black"
         to.style.color = "white"
@@ -279,7 +379,7 @@ function change(){
         main2.style.color = "black"
         btn.style.border = "2px solid white"
         btn.style.color = "white"
-        cent.style.color = "white"
+       
         h1.style.fontWeight = 200;
         body.style.backgroundColor = "black"
         body.style.color = "white"
