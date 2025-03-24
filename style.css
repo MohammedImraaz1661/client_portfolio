@@ -591,8 +591,7 @@ li{
     font-family: "Tektur", sans-serif;
 }
 
-
-@media (max-width:600px) {
+@media (max-width:600px) and (min-width:350px){
     #contmarq{
         padding: 6vh 0;
     }
@@ -666,6 +665,7 @@ li{
         margin-top: 0vh;
         width: 100%;
         text-align: center;
+        font-size: 2vh;
     }
 
     #cent3 h2{
@@ -737,15 +737,15 @@ li{
     }
     .lp #proc{
         /* background-color: red; */
-        margin-top: 5vh;
+        margin-top: 10vh;
         font-size: 4vh;
         width: 35vh;
         text-orientation: sideways-right;   
     }
 
     .rp #crf{
-        margin-top: -9vh;
-        font-size: 8vh;
+        margin-top: -8vh;
+        font-size: 6vh;
         line-height: 7vh;
     }
     .vb{
@@ -758,107 +758,160 @@ li{
         display: none;
     }
 
-.vb  .list{
-    margin-top: -2vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 4vh;
-}
-
-
-    .list #l1{
-        font-size: 3.5vh;
-        
-        
-    }
-    .list #l2{
-        font-size: 3.5vh;
-        margin-top: 3vh;
-    }
-    .list #l3{
-        font-size: 3.5vh;
-        margin-top: 3vh;
-    }
-    .list #l4{
-        font-size: 3.5vh;
-        margin-top: 3vh;
-    }
-    
-    .vb  .para{
-        display: none;
-
-        background-color:purple;
-    }
-    .ph{
-        font-size: 1.8vh;
-        transition: ease;
-    }
-    #ph1{
-     display: block;
-    }
-    #main2 #cmm{
-    margin-top: -20vh;
-    background-color: white;
-    font-size:4.5vh;
-    width: 100%;
-    font-weight: 500;    
-    padding: 2vh;
-    padding-top: 4vh;
-    }
-
-    #desc{
-        width: 100%;
-        margin-top: -2vh;
-        padding: 2vh;
-        font-size: 2.1vh;
-    }
-
-    #main2{
-        position: relative;
-    }
-    #main2 #n1{
-        width:90%;
-        margin-top: 4vh;
-        font-size: 2.4vh;
-    }
-
-
-    #link{
+    .vb  .list{
         margin-top: -2vh;
         width: 100%;
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
-        padding: 0;
+        gap: 4vh;
+        /* margin-bottom: 5vh; */
     }
-
-    #link #lt{
-        width: 100%;
-        /* background-color: red; */
     
-    }
-   
-    #link #rt{
-        margin-top: -3vh;
+    
+        .list #l1{
+            font-size: 3.5vh;
+            
+            
+        }
+        .list #l2{
+            font-size: 3.5vh;
+            margin-top: 3vh;
+        }
+        .list #l3{
+            font-size: 3.5vh;
+            margin-top: 3vh;
+        }
+        .list #l4{
+            font-size: 3.5vh;
+            margin-top: 3vh;
+        }
+        
+        .vb  .para{
+            display: none;
+    
+            background-color:purple;
+        }
+        .ph{
+            font-size: 1.8vh;
+            transition: ease;
+        }
+        #ph1{
+         display: block;
+        }
+        #main2 #cmm{
+        margin-top: -20vh;
+        background-color: white;
+        font-size:4.5vh;
         width: 100%;
+        font-weight: 500;    
+        padding: 2vh;
+        padding-top: 4vh;
+        }
+    
+        #desc{
+            width: 100%;
+            margin-top: -2vh;
+            padding: 2vh;
+            font-size: 2.1vh;
+        }
+    
+        #main2{
+            position: relative;
+        }
+        #main2 #n1{
+            width:90%;
+            margin-top: 4vh;
+            font-size: 2.4vh;
+            margin-bottom: 0;
+        }
 
+        #main2 #stud{
+            /* margin-top: 1vh; */
+            position: relative;
+            padding: 10px 0px;
+            /* background-color: blue; */
+        }
+
+        #hcl{
+            top: 50%;
+            left: 42%;
+            transform: translate(-50%,-50%);
+            width: 25%;
+            display: block;
+            /* border: 4px solid red; */
+            padding: 1vh;
+            height: 50%;
+            /* margin: auto; */
+            position: absolute;
+        }
+    
+    
+        #link{
+            margin-top: -2vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 0;
+        }
+    
+        #link #lt{
+            width: 100%;
+            /* background-color: red; */
+        
+        }
+       
+        #link #rt{
+            margin-top: -3vh;
+            width: 100%;
+    
+        }
+       
+       #rt .ri{
+        /* background-color: red; */
+        margin-top: 30px;
+       }
+    
+       #rt .le{
+        /* background-color: red; */
+        margin-top: 25px;
+       }
+    
+       #foot{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+       }
     }
-   
-   #rt .ri{
-    /* background-color: red; */
-    margin-top: 30px;
-   }
 
-   #rt .le{
-    /* background-color: red; */
-    margin-top: 25px;
-   }
+@media (max-width: 340px){
+    #main{
+        width: 100%;
+    }
 
-   #foot{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-   }
+    #right ul{
+        display: none;
+    }
+
+    #centr #center{
+        font-size: 1vh;
+    }
+
+    #main2 #cmm{
+        font-size: 1vh;
+    }
+
+    #link {
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    #foot{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
 }

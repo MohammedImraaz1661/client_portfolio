@@ -210,6 +210,7 @@ function change(){
         if(smq.matches){
             cent.style.webkitTextStroke = "transparent"
         cent.style.color = "black"
+        span.style.color = "black"
         }
         else {
         span.style.webkitTextStroke = ".1rem #000000"
@@ -267,7 +268,7 @@ function change(){
             l1.style.color = "black"
             l1.style.opacity="1"
             }
-            span.style.color="black"
+            // span.style.color="black"
 
         cmm.style.backgroundColor="black"
         Var.style.color = "white"
@@ -311,6 +312,7 @@ function change(){
         if(smq.matches){
             cent.style.webkitTextStroke = "transparent"
         cent.style.color = "white"
+        span.style.color = "white"
         }
         else {
        span.style.webkitTextStroke = ".1rem #ffffff"
@@ -375,7 +377,7 @@ function change(){
             l1.style="opacity:1;color:white"
          }
        
-       span.style.color="white"
+    //    span.style.color="white"
         Var.style.color = "black"
         to.style.color = "white"
         bs.style.color = "white"
@@ -549,10 +551,6 @@ else{
        }
        
       
-    })
-   
-    p.from("#cent3p", {
-     
     })
     gsap.from("#part", {
         x: -500,
