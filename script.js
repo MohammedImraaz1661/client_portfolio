@@ -456,12 +456,14 @@ var a=gsap.to(marq1, {
         duration: 0.8
     })
     p.from("#cent3 h2", {
-        x: -1000,
+        x: -100,
+        scale:0.5,
         opacity: 0,
         duration: 1
     })
-    p.from("#cent3p", {
-        x: 1000,
+    p.from("#cent3p p", {
+        x: 100,
+        scale:0.5,
         opacity: 0,
         duration: 1
     })
@@ -539,7 +541,7 @@ else{
        
       
     })
-    gsap.from("#cent3p", {
+    gsap.from("#cent3p p", {
         x: 1000,
         opacity: 0,
         duration: 1,
