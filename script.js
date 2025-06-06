@@ -41,7 +41,7 @@ if(smq.matches){
     cent.style="-webkit-text-stroke: transparent;"
     d=1
 };
-  
+
 
 
 
@@ -67,10 +67,10 @@ function bb(){
     l3.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
     l2.style = "opacity: 1; color: white;"
-    habibi.style.top = "25%" 
+    habibi.style.top = "25%"
     habibi.innerHTML = "02/"
-    v=2  
-    
+    v=2
+
 }
 
 function bb1(){
@@ -79,14 +79,14 @@ function bb1(){
         ph1.style.display="none"
         ph4.style.display="none"
         ph3.style.display="none"
-        
+
     }
     para.innerHTML = `<p>I'm here to bring your brand to life by telling its one-of-a-kind story! With my design skills, I'll create an unforgettable visual identity that will make you stand out from the crowd. And when it comes to crafting digital experiences, I make sure they're user-friendly, because people are the heart and soul of every project I work on.</p>`
     l1.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
     l2.style = "opacity: 1; color: black;"
-    habibi.style.top = "25%" 
+    habibi.style.top = "25%"
     habibi.innerHTML = "02/"
     v=2
 }
@@ -96,36 +96,36 @@ function aa(){
         ph2.style.display="none"
         ph3.style.display="none"
         ph4.style.display="none"
-        
+
     }
     l2.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
     l1.style = "opacity: 1; color: white;"
     para.innerHTML=`<p>Let's roll up our sleeves and dive deep into the exciting world of product creation! I'll take a close look at the brand, competitors, market values, and product goals to gather all the juicy details we need to make something amazing.</p>`
-    habibi.style.top = "8%" 
+    habibi.style.top = "8%"
     habibi.innerHTML = "01/"
-    v = 1    
-    
+    v = 1
+
 }
 function aa1(){
-    
+
     if(d==1){
         ph1.style.display="block"
         ph2.style.display="none"
         ph3.style.display="none"
         ph4.style.display="none"
-        
+
     }
-    v = 1  
+    v = 1
     l2.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
     l1.style = "opacity: 1; color: black;"
     para.innerHTML=`<p>Let's roll up our sleeves and dive deep into the exciting world of product creation! I'll take a close look at the brand, competitors, market values, and product goals to gather all the juicy details we need to make something amazing.</p>`
-    habibi.style.top = "8%" 
+    habibi.style.top = "8%"
     habibi.innerHTML = "01/"
-    
+
 }
 function cc(){
     if(d==1){
@@ -133,7 +133,7 @@ function cc(){
         ph2.style.display="none"
         ph1.style.display="none"
         ph4.style.display="none"
-        
+
     }
     v = 3
     para.innerHTML=`<p>Get ready to experience the power of cutting-edge technology! With my expertise, I'll build websites and products that not only function flawlessly but also remain dependable and adaptable over time. You can trust me to keep your digital world running smoothly while you focus on what matters most to you.</p>`
@@ -141,9 +141,9 @@ function cc(){
     l2.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 1; color: white;"
-    habibi.style.top = "45%" 
+    habibi.style.top = "45%"
     habibi.innerHTML = "03/"
-    
+
 }
 function cc1(){
     if(d==1){
@@ -151,7 +151,7 @@ function cc1(){
         ph2.style.display="none"
         ph1.style.display="none"
         ph4.style.display="none"
-        
+
     }
     v=3
     para.innerHTML=`<p>Get ready to experience the power of cutting-edge technology! With my expertise, I'll build websites and products that not only function flawlessly but also remain dependable and adaptable over time. You can trust me to keep your digital world running smoothly while you focus on what matters most to you.</p>`
@@ -159,9 +159,9 @@ function cc1(){
     l2.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 0.7; color: darkgray;"
     l3.style = "opacity: 1; color: black;"
-    habibi.style.top = "45%" 
+    habibi.style.top = "45%"
     habibi.innerHTML = "03/"
-    
+
 }
 function dd(){
     if(d==1){
@@ -169,7 +169,7 @@ function dd(){
         ph2.style.display="none"
         ph1.style.display="none"
         ph3.style.display="none"
-        
+
     }
     v=4
     l1.style = "opacity: 0.7; color: darkgray;"
@@ -177,9 +177,9 @@ function dd(){
     l2.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 1; color: white;"
     para.innerHTML=`<p>Just like the world is constantly evolving, so is my design practice! I'm always pushing myself to get better and better, because I know that's what it takes to stay ahead in this fast-paced world. And when I work with businesses like yours, I bring all my latest and greatest ideas to the table to help you succeed in style.</p>`
-    habibi.style.top = "65%" 
+    habibi.style.top = "65%"
     habibi.innerHTML = "04/"
-    
+
 }
 function dd1(){
     if(d==1){
@@ -187,7 +187,7 @@ function dd1(){
         ph2.style.display="none"
         ph1.style.display="none"
         ph3.style.display="none"
-        
+
     }
     v=4
     l1.style = "opacity: 0.7; color: darkgray;"
@@ -195,9 +195,9 @@ function dd1(){
     l2.style = "opacity: 0.7; color: darkgray;"
     l4.style = "opacity: 1; color: black;"
     para.innerHTML=`<p>Just like the world is constantly evolving, so is my design practice! I'm always pushing myself to get better and better, because I know that's what it takes to stay ahead in this fast-paced world. And when I work with businesses like yours, I bring all my latest and greatest ideas to the table to help you succeed in style.</p>`
-    habibi.style.top = "65%" 
+    habibi.style.top = "65%"
     habibi.innerHTML = "04/"
-    
+
 }
 
 function change(){
@@ -206,7 +206,7 @@ function change(){
         stag.innerHTML+=`#contmarq:after{
    display:none;
 }`
-   
+
         if(smq.matches){
             cent.style.webkitTextStroke = "transparent"
         cent.style.color = "black"
@@ -233,7 +233,7 @@ function change(){
              l4.style.opacity="1"
             l4.style.color = "black"
         }
-      
+
         btn.addEventListener("mouseover", function(){
             btn.style.backgroundColor = "black"
             btn.style.color = "white"
@@ -244,26 +244,26 @@ function change(){
                 btn.style.border = "2px solid black"
             })
         })
-        
+
         l1.addEventListener("click",function(){
             aa1()
-            
+
         })
         l2.addEventListener("click",function(){
             bb1()
-            
+
         })
         l3.addEventListener("click",function(){
             cc1()
-            
+
         })
         l4.addEventListener("click",function(){
             dd1()
-            
+
         })
 
-      
-    
+
+
         if(v!=4&v!=2&v!=3){
             l1.style.color = "black"
             l1.style.opacity="1"
@@ -271,7 +271,6 @@ function change(){
             // span.style.color="black"
 
         cmm.style.backgroundColor="black"
-        Var.style.color = "white"
         to.style.color = "black"
         bs.style.color = "black"
         a.style.color = "white"
@@ -286,8 +285,8 @@ function change(){
         btn.style.border = "2px solid black"
         btn.style.color = "black"
         btn.style.backgroundColor = "white"
-        
-       
+
+
         h1.style.fontWeight = 700;
         body.style.backgroundColor = "white"
         body.style.color = "black"
@@ -308,7 +307,7 @@ function change(){
             display:block;
          }`
           cmm.style.backgroundColor="white"
-       
+
         if(smq.matches){
             cent.style.webkitTextStroke = "transparent"
         cent.style.color = "white"
@@ -322,21 +321,21 @@ function change(){
          idu.style="opacity:0.7;color:darkgray;"
         l1.addEventListener("click",function(){
         aa()
-                
+
         })
         l2.addEventListener("click",function(){
             bb()
-            
+
         })
         l3.addEventListener("click",function(){
             cc()
-            
+
         })
         l4.addEventListener("click",function(){
             dd()
-            
+
         })
-      
+
 
         if (v == 1) {
             l1.style.color = "white"
@@ -372,13 +371,12 @@ function change(){
                 btn.style.border = "2px solid white"
             })
         })
-        
+
          if(v==1){
             l1.style="opacity:1;color:white"
          }
-       
+
     //    span.style.color="white"
-        Var.style.color = "black"
         to.style.color = "white"
         bs.style.color = "white"
         a.style.color = "black"
@@ -393,7 +391,7 @@ function change(){
         main2.style.color = "black"
         btn.style.border = "2px solid white"
         btn.style.color = "white"
-       
+
         h1.style.fontWeight = 200;
         body.style.backgroundColor = "black"
         body.style.color = "white"
@@ -409,21 +407,21 @@ function anime(){
 marq2.innerHTML += marq2.innerHTML;
 
 var a=gsap.to(marq1, {
-   x:0, 
-    duration: 70,                
-    ease: "linear",             
-    repeat: -1                 
+   x:0,
+    duration: 70,
+    ease: "linear",
+    repeat: -1
   });
-  
- 
+
+
  var b= gsap.to(marq2, {
-    x: -marq2.offsetWidth / 2, 
-    duration: 50,                 
-    ease: "linear",             
-    repeat: -1                  
+    x: -marq2.offsetWidth / 2,
+    duration: 50,
+    ease: "linear",
+    repeat: -1
   });
-  
-    
+
+
     marq1.addEventListener("mouseover",function(){
         a.pause()
     })
@@ -436,19 +434,19 @@ var a=gsap.to(marq1, {
     marq2.addEventListener("mouseleave",function(){
         b.play()
     })
-    
+
     if(d==1){
-        
+
     p.from("#nav", {
         opacity: 0,
         y: -150,
         duration: 0.8
-       
+
     })
     p.from("#center", {
         y: 150,
         opacity: 0,
-        duration: 0.8  
+        duration: 0.8
     })
     p.from("#cent2", {
         y: 150,
@@ -492,12 +490,12 @@ var a=gsap.to(marq1, {
         y: 300,
         opacity: 0,
         duration: 1
-    }) 
+    })
     p.from("#stud", {
         y: 300,
         opacity: 0,
         duration: 1
-    })  
+    })
     p.from("#lt", {
         scale: 0.3,
         opacity: 0,
@@ -507,21 +505,21 @@ var a=gsap.to(marq1, {
         scale: 0.3,
         opacity: 0,
         duration: .9
-    },"saath")  
+    },"saath")
 
     }
 else{
-   
+
     p.from("#nav", {
         opacity: 0,
         y: -150,
         duration: 0.8
-       
+
     })
     p.from("#center", {
         y: 150,
         opacity: 0,
-        duration: 0.8  
+        duration: 0.8
     })
     p.from("#cent2", {
         y: 150,
@@ -538,8 +536,8 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
     gsap.from("#cent3p p", {
         x: 1000,
@@ -551,8 +549,8 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
     gsap.from("#part", {
         x: -500,
@@ -564,10 +562,10 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
-    
+
     gsap.from(".vary ", {
         y: 500,
         opacity: 0,
@@ -579,10 +577,10 @@ else{
         start:"top 100%",
         end:"top 0%"
        }
-       
-      
+
+
     })
-    
+
     gsap.from("#main2 h1", {
         y: 300,
         opacity: 0,
@@ -593,10 +591,10 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
-      
+
     gsap.from("#desc", {
         y: 300,
         opacity: 0,
@@ -608,10 +606,10 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
-      
+
     gsap.from("#n1", {
         y: 300,
         opacity: 0,
@@ -623,10 +621,10 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
-      
+
     gsap.from("#stud", {
         y: 300,
         opacity: 0,
@@ -638,10 +636,10 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     })
-      
+
     gsap.from("#lt", {
         scale: 0.3,
         opacity: 0,
@@ -653,8 +651,8 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
+
+
     },"saath")
     gsap.from("#rt", {
         scale: 0.3,
@@ -667,16 +665,16 @@ else{
         start:"top 60%",
         end:"top 40%"
        }
-       
-      
-    },"saath")
- 
 
- 
-    
- 
+
+    },"saath")
+
+
+
+
+
   }
-  
+
 }
 
 anime()
